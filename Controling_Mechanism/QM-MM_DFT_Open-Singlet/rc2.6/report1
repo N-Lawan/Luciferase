@@ -1,0 +1,137 @@
+
+       ****************************
+                  QoMMMa
+                    v.8
+        J.N. Harvey, Bristol, 2006
+       ****************************
+
+     Using a modified version of Tinker
+          Version 4.0 February 2003
+   Copyright 1990-2003 Jay William Ponder
+      see http://dasher.wustl.edu/tinker/
+
+The system is made up of  7283 atoms of which  34 are QM.
+There are    1 link atoms connecting QM and MM parts.
+A total of   35 atoms will be optimized using the QoMMMa Hessian
+This is equivalent to    0 atoms on top of the QM & Link ones
+You have put    2 constraints on the geometry.
+
+Situation at step:    1
+Present, previous energy:  -1023.591834     0.000000
+        QM, MM, energies:  -1023.644636     0.044157
+Constr. energy, Constraint-free energy:      0.008645 -1023.600479
+Constr. no.;  Value  ; Ideal val. ; Energy contrib. ; Gradient
+     1        0.9996     1.0000         0.000000     -0.000638
+     2        2.7042     2.6000         0.008645      0.165991
+                      Change in energy:  -1023.591834    (0.000100)  NO
+                   Maximum change of X:      0.081623    (0.007000)  NO
+                       RMS change of X:      0.015443    (0.004000)  NO
+              Maximum gradient element:      0.116604    (0.003000)  NO
+                  RMS gradient element:      0.022061    (0.002000)  NO
+ 
+Situation at step:    2
+Present, previous energy:  -1023.582607 -1023.591834
+        QM, MM, energies:  -1023.637840     0.043843
+Constr. energy, Constraint-free energy:      0.011391 -1023.593997
+Constr. no.;  Value  ; Ideal val. ; Energy contrib. ; Gradient
+     1        0.9992     1.0000         0.000000     -0.001245
+     2        2.4804     2.6000         0.011390     -0.190532
+                      Change in energy:      0.009227    (0.000100)  NO
+                   Maximum change of X:      0.049870    (0.007000)  NO
+                       RMS change of X:      0.009200    (0.004000)  NO
+              Maximum gradient element:      0.190760    (0.003000)  NO
+                  RMS gradient element:      0.035138    (0.002000)  NO
+ 
+Situation at step:    3
+Present, previous energy:  -1023.599138 -1023.582607
+        QM, MM, energies:  -1023.643055     0.043888
+Constr. energy, Constraint-free energy:      0.000029 -1023.599167
+Constr. no.;  Value  ; Ideal val. ; Energy contrib. ; Gradient
+     1        0.9980     1.0000         0.000003     -0.003129
+     2        2.6058     2.6000         0.000026      0.009166
+                      Change in energy:     -0.016531    (0.000100)  NO
+                   Maximum change of X:      0.015575    (0.007000)  NO
+                       RMS change of X:      0.003604    (0.004000) YES
+              Maximum gradient element:      0.027834    (0.003000)  NO
+                  RMS gradient element:      0.005284    (0.002000)  NO
+ 
+Situation at step:    4
+Present, previous energy:  -1023.598588 -1023.599138
+        QM, MM, energies:  -1023.642826     0.043926
+Constr. energy, Constraint-free energy:      0.000311 -1023.598899
+Constr. no.;  Value  ; Ideal val. ; Energy contrib. ; Gradient
+     1        1.0001     1.0000         0.000000      0.000126
+     2        2.6198     2.6000         0.000311      0.031489
+                      Change in energy:      0.000549    (0.000100)  NO
+                   Maximum change of X:      0.009225    (0.007000)  NO
+                       RMS change of X:      0.002201    (0.004000) YES
+              Maximum gradient element:      0.039802    (0.003000)  NO
+                  RMS gradient element:      0.009076    (0.002000)  NO
+ 
+Situation at step:    5
+Present, previous energy:  -1023.599572 -1023.598588
+        QM, MM, energies:  -1023.643476     0.043832
+Constr. energy, Constraint-free energy:      0.000072 -1023.599644
+Constr. no.;  Value  ; Ideal val. ; Energy contrib. ; Gradient
+     1        0.9999     1.0000         0.000000     -0.000225
+     2        2.6095     2.6000         0.000072      0.015129
+                      Change in energy:     -0.000984    (0.000100)  NO
+                   Maximum change of X:      0.005379    (0.007000) YES
+                       RMS change of X:      0.001455    (0.004000) YES
+              Maximum gradient element:      0.008466    (0.003000)  NO
+                  RMS gradient element:      0.002161    (0.002000)  NO
+ 
+Situation at step:    6
+Present, previous energy:  -1023.599479 -1023.599572
+        QM, MM, energies:  -1023.643422     0.043914
+Constr. energy, Constraint-free energy:      0.000029 -1023.599508
+Constr. no.;  Value  ; Ideal val. ; Energy contrib. ; Gradient
+     1        0.9971     1.0000         0.000007     -0.004608
+     2        2.6052     2.6000         0.000022      0.008349
+                      Change in energy:      0.000093    (0.000100) YES
+                   Maximum change of X:      0.003374    (0.007000) YES
+                       RMS change of X:      0.000914    (0.004000) YES
+              Maximum gradient element:      0.017584    (0.003000)  NO
+                  RMS gradient element:      0.004101    (0.002000)  NO
+ 
+Situation at step:    7
+Present, previous energy:  -1023.599667 -1023.599479
+        QM, MM, energies:  -1023.643501     0.043797
+Constr. energy, Constraint-free energy:      0.000037 -1023.599704
+Constr. no.;  Value  ; Ideal val. ; Energy contrib. ; Gradient
+     1        0.9999     1.0000         0.000000     -0.000193
+     2        2.6068     2.6000         0.000037      0.010819
+                      Change in energy:     -0.000188    (0.000100)  NO
+                   Maximum change of X:      0.004126    (0.007000) YES
+                       RMS change of X:      0.000935    (0.004000) YES
+              Maximum gradient element:      0.004308    (0.003000)  NO
+                  RMS gradient element:      0.001215    (0.002000) YES
+ 
+Situation at step:    8
+Present, previous energy:  -1023.599666 -1023.599667
+        QM, MM, energies:  -1023.643497     0.043771
+Constr. energy, Constraint-free energy:      0.000060 -1023.599725
+Constr. no.;  Value  ; Ideal val. ; Energy contrib. ; Gradient
+     1        0.9978     1.0000         0.000004     -0.003454
+     2        2.6084     2.6000         0.000056      0.013335
+                      Change in energy:      0.000001    (0.000100) YES
+                   Maximum change of X:      0.001764    (0.007000) YES
+                       RMS change of X:      0.000622    (0.004000) YES
+              Maximum gradient element:      0.006598    (0.003000)  NO
+                  RMS gradient element:      0.001940    (0.002000) YES
+ 
+Situation at step:    9
+Present, previous energy:  -1023.599729 -1023.599666
+        QM, MM, energies:  -1023.643517     0.043746
+Constr. energy, Constraint-free energy:      0.000042 -1023.599772
+Constr. no.;  Value  ; Ideal val. ; Energy contrib. ; Gradient
+     1        0.9999     1.0000         0.000000     -0.000205
+     2        2.6073     2.6000         0.000042      0.011625
+                      Change in energy:     -0.000063    (0.000100) YES
+                   Maximum change of X:      0.003863    (0.007000) YES
+                       RMS change of X:      0.001037    (0.004000) YES
+              Maximum gradient element:      0.002855    (0.003000) YES
+                  RMS gradient element:      0.000707    (0.002000) YES
+ 
+The optimization has completed.
+Congratulations!!
