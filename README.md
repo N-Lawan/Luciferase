@@ -2,7 +2,7 @@
 
 QM-MM_AM1 for QM/MM molecular dynamics using CHARMM program.
 
-QM-MM_DFT* for QM/MM calculations using QoMMMa code which links Gaussian09 and Tinker programs.
+QM-MM_DFT_Open-Singlet, QM-MM_DFT_Singlet and QM-MM_DFT_Triplet for QM/MM calculations using QoMMMa code which links Gaussian09 and Tinker programs.
 
 HSD for the involvement of HSD form of His44 in stabilization of the active form of intermediate.
 
