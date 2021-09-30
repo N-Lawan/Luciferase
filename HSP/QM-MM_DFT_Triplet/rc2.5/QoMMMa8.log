@@ -1,0 +1,174 @@
+QoMMMa job starts at   Mon Jul 10 18:14:30 2017
+  and running in node  ('Linux', 'MMNL09', '4.4.0-83-generic', '#106-Ubuntu SMP Mon Jun 26 17:54:43 UTC 2017', 'x86_64')
+
+Note, default force field parameter file is charmm27.prm, this could be changed or modified through mmkey in user input
+
+Following QM atoms list is generated from qmread module in qomutil based on user input given in qm_lst key. If this list is not the one as you except check qm_lst input or break QoMMMa calculation and give your full QM atom list using qm key. Note, to use this key, if your atom name consist of two characters then use small case for second character in tinker xyz (initial geometry) file. For example; Fe, Cl, He (for iron, chlorine, helium) is correct but FE, CL,HE is not correct.
+
+    21         C
+
+    22         H
+
+    23         H
+
+    24         N
+
+    25         H
+
+    26         N
+
+    27         N
+
+    28         C
+
+    29         C
+
+    30         O
+
+    31         N
+
+    32         H
+
+    33         C
+
+    34         O
+
+    35         C
+
+    36         C
+
+    37         C
+
+    38         H
+
+    39         C
+
+    40         C
+
+    41         H
+
+    42         H
+
+    43         H
+
+    44         C
+
+    45         C
+
+    46         H
+
+    47         H
+
+    48         H
+
+    49         C
+
+    50         C
+
+    51         H
+
+    52         O
+
+    53         O
+
+   747         C
+
+   748         C
+
+   749         N
+
+   750         C
+
+   751         C
+
+   752         N
+
+   753         H
+
+   754         H
+
+   755         H
+
+   756         H
+
+   757         H
+
+   758         H
+
+Total number of QM atoms in the above list : 45
+
+No MM atom is included in Hessian optimization
+
+Note, to provide constrain details try to use 'constrain_lst' option (see manual), instead of 'constrain'. Since 'constrain' option will be removed in the next version of QoMMMa.
+
+Number of  Inactive atoms is 5447
+
+About to run Gaussian job at cycle : 1  for image : 1
+
+About to run QM/MM optimization cyle :1
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 2  for image : 1
+
+About to run QM/MM optimization cyle :2
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 3  for image : 1
+
+About to run QM/MM optimization cyle :3
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 4  for image : 1
+
+About to run QM/MM optimization cyle :4
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 5  for image : 1
+
+About to run QM/MM optimization cyle :5
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 6  for image : 1
+
+About to run QM/MM optimization cyle :6
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 7  for image : 1
+
+About to run QM/MM optimization cyle :7
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 8  for image : 1
+
+About to run QM/MM optimization cyle :8
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 9  for image : 1
+
+About to run QM/MM optimization cyle :9
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 10  for image : 1
+
+About to run QM/MM optimization cyle :10
+
+About to run Microoptimization of geometry :1
+
+About to run Gaussian job at cycle : 11  for image : 1
+
+About to run QM/MM optimization cyle :11
+
+Optimization converged
+
+Congratulations,
+  QoMMMa job ends at Tue Jul 11 03:35:00 2017
+

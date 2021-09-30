@@ -1,0 +1,1430 @@
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13656.5861 Kcal/mole
+
+ Intermolecular Energy :               -2816.6852 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5144           1857
+ Angle Bending                          1348.1219           3304
+ Urey-Bradley                            331.2843           1502
+ Improper Dihedral                        34.9657            281
+ Torsional Angle                         631.7512           4981
+ Van der Waals                         -6366.0947       11437571
+ Charge-Charge                         -4703.9568       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13657.0551 Kcal/mole
+
+ Intermolecular Energy :               -2816.2100 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5145           1857
+ Angle Bending                          1348.1222           3304
+ Urey-Bradley                            331.2842           1502
+ Improper Dihedral                        34.9656            281
+ Torsional Angle                         631.7522           4981
+ Van der Waals                         -6365.6269       11437571
+ Charge-Charge                         -4703.9568       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13656.9194 Kcal/mole
+
+ Intermolecular Energy :               -2816.4135 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5430           1857
+ Angle Bending                          1348.0985           3304
+ Urey-Bradley                            331.2746           1502
+ Improper Dihedral                        35.0217            281
+ Torsional Angle                         631.7277           4981
+ Van der Waals                         -6365.7115       11437571
+ Charge-Charge                         -4704.0346       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13656.7377 Kcal/mole
+
+ Intermolecular Energy :               -2816.6229 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5417           1857
+ Angle Bending                          1348.1177           3304
+ Urey-Bradley                            331.2745           1502
+ Improper Dihedral                        35.0186            281
+ Torsional Angle                         631.7262           4981
+ Van der Waals                         -6365.9065       11437571
+ Charge-Charge                         -4704.0346       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13656.7969 Kcal/mole
+
+ Intermolecular Energy :               -2816.5441 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5431           1857
+ Angle Bending                          1348.1176           3304
+ Urey-Bradley                            331.2752           1502
+ Improper Dihedral                        35.0179            281
+ Torsional Angle                         631.7272           4981
+ Van der Waals                         -6365.8497       11437571
+ Charge-Charge                         -4704.0346       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13657.0446 Kcal/mole
+
+ Intermolecular Energy :               -2816.3195 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5460           1857
+ Angle Bending                          1348.1054           3304
+ Urey-Bradley                            331.2770           1502
+ Improper Dihedral                        35.0187            281
+ Torsional Angle                         631.7303           4981
+ Van der Waals                         -6365.5983       11437571
+ Charge-Charge                         -4704.0346       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13656.8901 Kcal/mole
+
+ Intermolecular Energy :               -2816.4721 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5443           1857
+ Angle Bending                          1348.1148           3304
+ Urey-Bradley                            331.2760           1502
+ Improper Dihedral                        35.0184            281
+ Torsional Angle                         631.7287           4981
+ Van der Waals                         -6365.7576       11437571
+ Charge-Charge                         -4704.0346       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13656.8150 Kcal/mole
+
+ Intermolecular Energy :               -2816.5498 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5443           1857
+ Angle Bending                          1348.1174           3304
+ Urey-Bradley                            331.2757           1502
+ Improper Dihedral                        35.0176            281
+ Torsional Angle                         631.7293           4981
+ Van der Waals                         -6365.8347       11437571
+ Charge-Charge                         -4704.0346       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13656.8493 Kcal/mole
+
+ Intermolecular Energy :               -2816.5177 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5439           1857
+ Angle Bending                          1348.1161           3304
+ Urey-Bradley                            331.2759           1502
+ Improper Dihedral                        35.0178            281
+ Torsional Angle                         631.7301           4981
+ Van der Waals                         -6365.8000       11437571
+ Charge-Charge                         -4704.0346       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13656.8800 Kcal/mole
+
+ Intermolecular Energy :               -2816.4922 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5438           1857
+ Angle Bending                          1348.1167           3304
+ Urey-Bradley                            331.2763           1502
+ Improper Dihedral                        35.0178            281
+ Torsional Angle                         631.7310           4981
+ Van der Waals                         -6365.7709       11437571
+ Charge-Charge                         -4704.0346       11132615
+
+ ##############################################################################
+ ##############################################################################
+ ##                                                                          ##
+ ##             TINKER  ---  Software Tools for Molecular Design             ##
+ ##                                                                          ##
+ ##                          Version 4.2  June 2004                          ##
+ ##                                                                          ##
+ ##               Copyright (c)  Jay William Ponder  1990-2004               ##
+ ##                            All Rights Reserved                           ##
+ ##                                                                          ##
+ ##############################################################################
+ ##############################################################################
+
+
+ Enter Cartesian Coordinate File Name :  
+ Atoms with an Unusual Number of Attached Atoms :
+
+ Type           Atom Name      Atom Type       Expected    Found
+
+ Valence           5-ON2          446              1         2
+ Valence           6-CT2          447              3         4
+ Valence           9-CT1          450              3         4
+ Valence          10-OH1          451              1         2
+ Valence          13-CT1          454              3         4
+ Valence          14-OH1          455              1         2
+ Valence          17-CT1          458              3         4
+ Valence          18-OH1          459              1         2
+ Valence          21-CT2          462              3         4
+ Valence          27-NN2          468              3         2
+ Valence          40-CT3          481              3         4
+ Valence          45-CT3          486              3         4
+
+ Undefined Angle Bending Parameters :
+
+ Type                  Atom Names                   Atom Classes
+
+ Angle          25-HP     24-NN2    36-CA            2  213   11
+ Angle          44-CA     49-CA     51-HN2          11   11  201
+ Angle          50-CA     49-CA     51-HN2          11   11  201
+
+ Undefined Torsional Parameters :
+
+ Type                        Atom Names                        Atom Classes
+
+ Torsion        25-HP     24-NN2    36-CA     37-CA          2  213   11   11
+ Torsion        25-HP     24-NN2    36-CA     50-CA          2  213   11   11
+ Torsion        39-CA     44-CA     49-CA     51-HN2        11   11   11  201
+ Torsion        45-CT3    44-CA     49-CA     51-HN2        15   11   11  201
+ Torsion        51-HN2    49-CA     50-CA     26-NN2       201   11   11  213
+ Torsion        51-HN2    49-CA     50-CA     36-CA        201   11   11   11
+
+ Additional Partial Charges for Specific Atoms :
+
+      Atom              Charge
+
+        17              0.0000
+        18              0.0000
+        20              0.0000
+        21              0.0000
+        22              0.0000
+        23              0.0000
+        24              0.0000
+        25              0.0000
+        26              0.0000
+        27              0.0000
+        28              0.0000
+        29              0.0000
+        30              0.0000
+        31              0.0000
+        32              0.0000
+        33              0.0000
+        34              0.0000
+        35              0.0000
+        36              0.0000
+        37              0.0000
+        38              0.0000
+        39              0.0000
+        40              0.0000
+        41              0.0000
+        42              0.0000
+        43              0.0000
+        44              0.0000
+        45              0.0000
+        46              0.0000
+        47              0.0000
+        48              0.0000
+        49              0.0000
+        50              0.0000
+        51              0.0000
+        52              0.0000
+        53              0.0000
+       742              0.0000
+       746              0.0000
+       747              0.0000
+       748              0.0000
+       749              0.0000
+       750              0.0000
+       751              0.0000
+       752              0.0000
+       753              0.0000
+       754              0.0000
+       755              0.0000
+       756              0.0000
+       757              0.0000
+       758              0.0000
+
+ The TINKER Analysis Facility can Provide :
+
+ Total Potential Energy and its Components [E]
+ Energy Breakdown over each of the Atoms [A]
+ List of the Large Individual Interactions [L]
+ Details for All Individual Interactions [D]
+ Electrostatic, Inertial & Virial Properties [M]
+ Force Field Parameters for Interactions [P]
+
+ Enter the Desired Analysis Types [E,A,L,D,M,P] :  
+ Total Potential Energy :              13656.8620 Kcal/mole
+
+ Intermolecular Energy :               -2816.5132 Kcal/mole
+
+ Energy Component Breakdown :           Kcal/mole      Interactions
+
+ Bond Stretching                       22380.5439           1857
+ Angle Bending                          1348.1170           3304
+ Urey-Bradley                            331.2764           1502
+ Improper Dihedral                        35.0176            281
+ Torsional Angle                         631.7318           4981
+ Van der Waals                         -6365.7901       11437571
+ Charge-Charge                         -4704.0346       11132615
